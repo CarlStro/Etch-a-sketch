@@ -1,7 +1,18 @@
+body {
+    text-align: center;
+    margin: 5px;
+    align-content: center;
+    background-color: lightblue;
+}
 .mainContainer {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    margin: 0 auto;
+    border: 80px solid red;
+    border-radius: 40px;
+    width: 960px;
+    min-height: 70vh;
+    background-color: white;
 }
 
 .rowContainer {
@@ -15,4 +26,11 @@
 
 .backGroundChange {
     background-color: gray;
+}
+
+button {
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px;
+    margin: 5px;
 }
